@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #7952b3;
+}
+
+nav ul {
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+nav ul li {
+    padding: 0px 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.btn0 {
+    display: flex;
+    align-items: center;
+    margin: 0px 715px;
+}
+
+nav ul button {
+    background-color: #7952b3;
+    color: #ffe484;
+    border: 1px solid #ffe484;
+    padding: 9px 33px;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+.btn0 button:hover {
+    background-color: #ffe484;
+    color: black;
+    cursor: pointer;
+}
+
+.image {
+    margin: -10px;
+    padding: 0px 18px 0px 105px;
+}
+
+.container {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.box1 {
+    padding: 115px;
+    font-family: 'Arimo', sans-serif;
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 h1 {
+    font-size: 60px;
+}
+
+.box1 p {
+    font-size: 20px;
+    margin: 10px auto;
+    line-height: 35px;
+}
+
+.btn-box {
+    display: flex;
+    align-items: center;
+    margin: 65px;
+}
+
+.btn1 button {
+    font-size: larger;
+    color: white;
+    background-color: #7952b3;
+    padding: 13px 30px;
+    border-radius: 8px;
+    margin: 0px 52px 0px -243px;
+}
+
+.btn1 button:hover {
+    cursor: pointer;
+    background-color: #6610f2;
+}
+
+.btn2 button {
+    font-size: large;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 13px 30px;
+    margin: auto auto auto -52px;
+}
+
+.btn2 button:hover {
+    cursor: pointer;
+    background-color: #6c757d;
+    color: white;
+}
